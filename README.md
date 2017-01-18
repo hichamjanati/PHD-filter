@@ -12,7 +12,7 @@ Authors: Gwendoline De Bie - Johann Faouzi - Hicham Janati
 
 ### File base.py: 
 
-	Principal abstract class PHDabstract: serves as a root for the child objects
+Principal abstract object PHDabstract: serves as a root for the child objects
 (PHD) and (PHD_bootstrap). PHDabstract hides all plot and data generation methods
 that are commonly shared between the children classes.
 
