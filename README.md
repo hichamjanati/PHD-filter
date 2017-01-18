@@ -10,13 +10,13 @@ Authors: Gwendoline De Bie - Johann Faouzi - Hicham Janati
 
 ## 1- Code PHD: 
 
- ###  File base.py: 
+### File base.py: 
 
 	Principal abstract class PHDabstract: serves as a root for the child objects
 (PHD) and (PHD_bootstrap). PHDabstract hides all plot and data generation methods
 that are commonly shared between the children classes.
 
- ###  File main.py: 
+### File main.py: 
 
    Contains the (useful) PHD objects:
 
@@ -27,7 +27,7 @@ in the prediction step where q is the random variable generator and q_pdf its de
 model given by (f,f_pdf) in the initiation. The separation is useful since with
 the bootstrap filter the prediction formulas are much simpler.
 
- ###  File parameters.py:
+### File parameters.py:
 
    All parameters are stored:
  
